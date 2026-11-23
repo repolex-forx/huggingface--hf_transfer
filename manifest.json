@@ -311,7 +311,9 @@
           "githubRepo": "rust",
           "source": "stdlib:rust"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/16bbc5045ff4036be9d8bcd0050108d82229a216/chunk-001.nq.gz",
+      "dep": "dep/16bbc5045ff4036be9d8bcd0050108d82229a216.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
