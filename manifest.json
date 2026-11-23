@@ -25,6 +25,292 @@
       ],
       "ast": [
         "aggregate/ast/16bbc5045ff4036be9d8bcd0050108d82229a216/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/16bbc5045ff4036be9d8bcd0050108d82229a216.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "futures",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "openssl",
+          "ecosystem": "CARGO",
+          "version": "0.10",
+          "githubOrg": "rust-openssl",
+          "githubRepo": "rust-openssl",
+          "githubUrl": "https://github.com/rust-openssl/rust-openssl",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.23",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.5",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "937320cbfeebd4352a23086d9c6e68f067f74644",
+          "githubTag": "0.8.5",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "reqwest",
+          "ecosystem": "CARGO",
+          "version": "0.12",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "reqwest",
+          "githubUrl": "https://github.com/seanmonstar/reqwest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.42",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-util",
+          "ecosystem": "CARGO",
+          "version": "0.7",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.2.0",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "a9124455213238a888a25607eb7ca368ecf0e712",
+          "githubTag": "v1.2.0",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.2.0/src/header/map.rs"
+        },
+        {
+          "packageName": "alloc/src/sync.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/result.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/fs.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/macros/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/string.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/str/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/mem/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "url",
+          "ecosystem": "CARGO",
+          "version": "2.5.4",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubCommit": "d77dfb467f8dd0c1fa181b3dfbc46e7cbe252021",
+          "githubTag": "v2.5.4",
+          "githubUrl": "https://github.com/servo/rust-url",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.4/src/lib.rs"
+        },
+        {
+          "packageName": "std/src/path.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/time.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/iter/traits/iterator.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/fmt/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/str.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/cmp.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "futures-util",
+          "ecosystem": "CARGO",
+          "version": "0.3.31",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "1e052816b09890925cfdfcbe8d390cdaae5e4c38",
+          "githubTag": "0.3.31",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-util-0.3.31/src/stream/stream/mod.rs"
+        },
+        {
+          "packageName": "core/src/io/seek.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/num/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/option.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/slice/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/collections/hash/map.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/num/uint_macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/borrow.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "time",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "os",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "math",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "std/src/lib.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        }
       ]
     }
   ],
