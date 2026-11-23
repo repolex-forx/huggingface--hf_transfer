@@ -1,0 +1,11 @@
+{
+  "org": "huggingface",
+  "repo": "hf_transfer",
+  "versions": [
+    {
+      "commit": "16bbc5045ff4036be9d8bcd0050108d82229a216",
+      "tag": "v0.1.9",
+      "parsed_at": "2026-11-23T07:08:53.418485+00:00"
+    }
+  ]
+}
